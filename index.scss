@@ -81,7 +81,7 @@ span {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  //justify-content: space-around;
   flex-direction: column;
   
 }
@@ -92,6 +92,7 @@ span {
   align-items: center;
   width: 100vw;
   perspective: 1000;
+  transform: translateY(5vh);
 }
 
 .botLine {
@@ -100,6 +101,7 @@ span {
   align-items: center;
   width: 100vw;
   perspective: 1000;
+  transform: translateY(10vh);
 }
 
 .kirbyRunner {
