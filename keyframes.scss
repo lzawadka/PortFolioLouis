@@ -24,3 +24,28 @@
     transform: translate3d(1692px, 2000px, 0px);
   }
 }
+
+
+//bounce effect
+
+@keyframes bounce {
+  0% {
+    transform:translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  25% {
+    transform:translateY(-35px);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: translateY(-35px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

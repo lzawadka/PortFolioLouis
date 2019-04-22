@@ -49,6 +49,7 @@ span {
 .downArrow {
   bottom: 2%;
   position: absolute;
+  animation: bounce 3s infinite;
 }
 
 
@@ -58,6 +59,7 @@ span {
 .downArrow2 {
   position: absolute;
   bottom: -98vh;
+  animation: bounce 3s infinite;
 }
 
 .skills {
