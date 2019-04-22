@@ -8,6 +8,10 @@ $scale : 5000;
 
 
 
+a {
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -81,8 +85,9 @@ span {
   height: 100vh;
   width: 100vw;
   background: url(/img/background.png) repeat-x;
+  transform: rotate(30deg);
   background-size: 100vh;
-  animation: slide 10s linear infinite;
+  animation: slide 4s linear infinite;
   z-index: -1;
 }
 
@@ -101,7 +106,41 @@ span {
   padding-left: 2%;
 }
 
+.asideProjects {
+  position: relative;
+  right: -47vw;
+  top: -59vh;
+  display: flex;
+  flex-direction: column-reverse;
+  z-index: 999;
+  color: white;
+  transform: rotateZ(90deg);
+
+  .projectsOnLeft {
+    background-color: blue;
+    height: 20px;
+    width: 80vh;
+  }
+
+  p {
+    font-family: 'Righteous', 'Heebo', sans-serif;
+    font-size: 2em;
+    padding-bottom: 1%;
+  }
+}
+
 // Third Section
+
+
+.canisMajor {
+  transform: translateY(45%);
+}
+
+.canisMajorBlack {
+  transform: translateY(22%);
+  z-index: -99;
+}
+
 
 .projects {
   height: 100vh;
@@ -112,6 +151,9 @@ span {
   flex-direction: column;
   margin-bottom: 10%;
   
+  a {
+    text-decoration: none;
+  }
 }
 
 .topLine {
@@ -185,6 +227,7 @@ span {
 .back {
   -webkit-transform: rotateY(180deg);
   background: white;
+  border-radius: 2%;
   display: flex;
   justify-content: center;
   flex-direction: column;

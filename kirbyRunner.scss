@@ -1,12 +1,14 @@
-.bodyGibson {
+.bodyKirby {
   background-color: black;
-  background-image: url(./img/fondGuitare.png);
+  background-image: url(./img/fondKirbyRunner.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  background-size: 80%; 
+  background-position-y: 30%;
 }
 
-.concoursGibson {
+.kirbyRunner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +22,7 @@
   }
 }
 
-.resume__concoursGibson {
+.resume__kirbyRunner {
   display: flex;
   flex-direction: row;
   color: white;
@@ -28,21 +30,23 @@
   padding: 8% 10% 8% 10%;
   
   p{
-    width: 35vw;
+    width: 40vw;
     padding-left: 20px;
-    line-height: 2em;
+    line-height: 1.5em;
     font-size: 1.2em;
     font-weight: bolder;
   }
 }
 
-.boutonGibson {
+// .imageKirbyRunner {
+//   width: 50%;
+//   height: 20%;
+// }
+
+.boutonKirby {
   color: white;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
-}
-
-.boutonGibson {
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;

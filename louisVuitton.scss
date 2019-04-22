@@ -1,4 +1,4 @@
-.bodyGibson {
+.bodyLouisVuitton {
   background-color: black;
   background-image: url(./img/fondGuitare.png);
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   background-attachment: fixed; 
 }
 
-.concoursGibson {
+.louisVuitton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   }
 }
 
-.resume__concoursGibson {
+.resume__louisVuitton {
   display: flex;
   flex-direction: row;
   color: white;
@@ -28,21 +28,18 @@
   padding: 8% 10% 8% 10%;
   
   p{
-    width: 35vw;
+    width: 40vw;
     padding-left: 20px;
-    line-height: 2em;
+    line-height: 1.5em;
     font-size: 1.2em;
     font-weight: bolder;
   }
 }
 
-.boutonGibson {
+.boutonLouisVuitton {
   color: white;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
-}
-
-.boutonGibson {
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;

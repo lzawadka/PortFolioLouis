@@ -1,12 +1,14 @@
-.bodyGibson {
+.bodyCanis {
   background-color: black;
-  background-image: url(./img/fondGuitare.png);
+  background-image: url(./img/fondCanis.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed; 
+  background-size: 90%;
+  background-position-y: 25%;
 }
 
-.concoursGibson {
+.canisMajorPage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,12 +22,12 @@
   }
 }
 
-.resume__concoursGibson {
+.resume__canisMajor {
   display: flex;
   flex-direction: row;
   color: white;
   font-family: 'Heebo', sans-serif;
-  padding: 8% 10% 8% 10%;
+  padding: 12% 10% 12% 10%;
   
   p{
     width: 35vw;
@@ -36,13 +38,10 @@
   }
 }
 
-.boutonGibson {
+.boutonCanis {
   color: white;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
-}
-
-.boutonGibson {
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
