@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 $chars : 13;
 $duration : .60s;
@@ -45,12 +46,26 @@ span {
   }
 }
 
+.downArrow {
+  bottom: 2%;
+  position: absolute;
+}
+
+
 // Second Section
+
+
+.downArrow2 {
+  position: absolute;
+  bottom: -98vh;
+}
 
 .skills {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
   
 }
 
