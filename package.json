@@ -1,0 +1,29 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzawadka/newPortFolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzawadka/newPortFolio/issues"
+  },
+  "homepage": "https://github.com/lzawadka/newPortFolio#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "^1.10.3"
+  },
+  "devDependencies": {
+    "sass": "^1.19.0"
+  }
+}

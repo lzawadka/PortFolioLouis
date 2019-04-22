@@ -1,0 +1,23 @@
+@keyframes stretch {
+  5% { 
+    transform: scaleX($scale);
+    opacity: .1;
+  }
+  20% { 
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  0%{
+    transform: translate3d(0px, -500px, 0px);
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  100%{
+    transform: translate3d(1692px, 2000px, 0px);
+  }
+}
