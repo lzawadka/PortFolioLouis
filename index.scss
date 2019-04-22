@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
 $chars : 13;
 $duration : .60s;
 $bounce : cubic-bezier(.4,1.4,.75,.9);
@@ -69,7 +71,116 @@ span {
   height: 100vh;
   z-index: 22;
   position: absolute;
-  top: 90vh;
+  top: 100vh;
 }
+
+// Third Section
+
+.projects {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+.topLine {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  perspective: 1000;
+}
+
+.botLine {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  perspective: 1000;
+}
+
+.kirbyRunner {
+  margin-right: 4%;
+}
+
+.logoLouisVuitton {
+  margin-left: 1%;
+  margin-top: -1%;
+  height: 341px;
+  width: 341px;
+}
+
+//flip effect
+
+
+/* entire container, keeps perspective */
+.flip-container {
+  -webkit-perspective: 1000;
+  background: black;
+}
+
+/* flip the pane when clicked */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 360px;
+	height: 380px;
+}
+
+/* flip speed goes here */
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  background: black;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY(180deg);
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-family: 'Heebo', sans-serif;
+    padding: 15px 20px;
+
+    &:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 2%;
+      content: "";
+      display: block;
+      height: 3px;
+      left: 30%;
+      position: absolute;
+      background: #3926E2;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    &:hover:after { 
+      width: 40%;  
+    }
+  }
+}
+
 
 

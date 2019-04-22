@@ -1,3 +1,4 @@
+//keyframe du glitch
 @keyframes stretch {
   5% { 
     transform: scaleX($scale);
@@ -9,6 +10,8 @@
   }
 }
 
+
+//keyframe du background
 @keyframes slide {
   0%{
     transform: translate3d(0px, -500px, 0px);
