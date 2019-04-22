@@ -1,0 +1,43 @@
+.bodyGibson {
+  background-color: black;
+  background-image: url(./img/fondGuitare.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+
+.concoursGibson {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    padding-top: 2%;
+    font-size: 2em;
+    color: white;
+    font-family: 'Righteous', 'Heebo', sans-serif;
+  }
+}
+
+.resume__concoursGibson {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  padding: 8% 10% 8% 10%;
+  
+  p{
+    width: 35vw;
+    padding-left: 20px;
+    line-height: 2em;
+    font-size: 1.2em;
+  }
+}
+
+.boutonGibson {
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  text-decoration: none;
+}
+

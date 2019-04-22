@@ -7,6 +7,11 @@ $bounce : cubic-bezier(.4,1.4,.75,.9);
 $scale : 5000;
 
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
 }
@@ -22,16 +27,16 @@ body {
 }
 
 .louisZawadka {
-  font-family: 'Righteous', cursive;
-  font-size: 8em;
+  font-family: 'Righteous', 'Heebo', cursive;
+  font-size: 6.5em;
   white-space: nowrap;
   color: white;
 }
 
 .postName {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', 'Heebo', cursive;
   color: white;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 span {
@@ -60,6 +65,7 @@ span {
   position: absolute;
   bottom: -98vh;
   animation: bounce 3s infinite;
+  z-index: 99;
 }
 
 .skills {
@@ -91,6 +97,10 @@ span {
   top: 100vh;
 }
 
+.pictureOfMe {
+  padding-left: 2%;
+}
+
 // Third Section
 
 .projects {
@@ -100,6 +110,7 @@ span {
   align-items: center;
   //justify-content: space-around;
   flex-direction: column;
+  margin-bottom: 10%;
   
 }
 
@@ -182,6 +193,8 @@ span {
   p {
     font-family: 'Heebo', sans-serif;
     padding: 15px 20px;
+    text-decoration: none;
+    color: black;
 
     &:after {    
       background: none repeat scroll 0 0 transparent;
@@ -194,12 +207,28 @@ span {
       background: #3926E2;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
+      text-decoration: none;
     }
     &:hover:after { 
-      width: 40%;  
+      width: 40%; 
+      text-decoration: none; 
     }
   }
 }
 
 
 
+// footer 
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2%;
+}
