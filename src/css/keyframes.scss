@@ -22,10 +22,29 @@
   }
 }
 
-//Gradient
-@keyframes blinds {
-  to {
-    background-image: linear-gradient(90deg, #f90 100%, #444 0);
-    transform: translateX(100vw);
+
+// Stars 
+@keyframes stars {
+  0% {
+    transform: translateX(-60vw);
+  }
+  100% {
+    transform: translateX(150vw);
+  }
+}
+@keyframes stars2 {
+  0% {
+    transform: translate(160vw, 10vh);  
+  }
+  100% {
+    transform: translate(-100vw, 10vh);  
+  }
+}
+@keyframes stars3 {
+  0% {
+    transform: translate(160vw, -40vh);  
+  }
+  100% {
+    transform: translate(-100vw, -40vh);  
   }
 }
