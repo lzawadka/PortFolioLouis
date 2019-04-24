@@ -77,8 +77,8 @@ span {
 .downArrow2 {
   position: absolute;
   bottom: -98vh;
-  animation: bounce 3s infinite;
   z-index: 99;
+  animation: bounce 3s infinite;
 }
 
 .skills {
@@ -93,10 +93,6 @@ span {
 .backgroundEffect {
   height: 100vh;
   width: 100vw;
-  background: url(/img/background.png) repeat-x;
-  transform: rotate(30deg);
-  background-size: 100vh;
-  animation: slide 4s linear infinite;
   z-index: -1;
 }
 
@@ -108,10 +104,18 @@ span {
   height: 100vh;
   z-index: 22;
   position: absolute;
+  pointer-events: none;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
 }
 
 .pictureOfMe {
   width: 85%;
+  top: 7.5%;
+  position: absolute;
 }
 
 
