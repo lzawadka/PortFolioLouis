@@ -126,7 +126,8 @@ canvas {
   width: 30vw;
   height: 0.5vh;
   background-image: linear-gradient(to right, black , #3926E2);
-  animation: stars 3s infinite; 
+  animation: stars 3s infinite;
+  z-index: 999; 
 }
 .lineGradient2 {
   width: 30vw;
@@ -167,13 +168,10 @@ canvas {
   width: 161px;
 }
 
-
-
 .canisMajorBlack {
   transform: translateY(28%);
   z-index: -99;
 }
-
 
 .allCards {
   height: 100vh;
