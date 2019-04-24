@@ -59,6 +59,7 @@ span {
   bottom: 2%;
   position: absolute;
   animation: bounce 3s infinite;
+  left: 47%;
 }
 
 
@@ -110,8 +111,7 @@ span {
 }
 
 .pictureOfMe {
-  padding-left: 2%;
-  width: 80%;
+  width: 85%;
 }
 
 
@@ -121,7 +121,7 @@ span {
 .asideProjects {
   position: absolute;
   color: white;
-  right: 1.3vw;
+  right: 1vw;
   top: 200vh;
   z-index: 99;
   height: 80vh;

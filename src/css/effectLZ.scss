@@ -1,0 +1,42 @@
+$colors: #3926E2, #3926E2, #3926E2,#FFFFFF, #FFFFFF;
+
+
+.place {
+  height: 100vh;
+  width: 100vw;
+  font: 3em/1 'Righteous', 'Heebo', sans-serif;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+$max: 5;
+$stroke-step: 4%; 
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+
+  
+  animation: stroke-offset 8s infinite linear;
+  
+  @for $item from 1 through $max {
+    $stroke-color: nth($colors, $item);
+    
+    &:nth-child(#{$item}) {
+      stroke: $stroke-color;
+      stroke-dashoffset: $stroke-step * $item;
+      }
+    }
+  }
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: $stroke-step * $max;  
+    stroke-dasharray: 0 $stroke-step * $max*2.5;
+  }
+}
+
