@@ -4,7 +4,7 @@ $colors: #3926E2, #3926E2, #3926E2,#FFFFFF, #FFFFFF;
 .place {
   height: 100vh;
   width: 100vw;
-  font: 3em/1 'Righteous', 'Heebo', sans-serif;
+  font: 5em/1 'Righteous', 'Heebo', sans-serif;
 }
 
 svg {
@@ -21,7 +21,7 @@ $stroke-step: 4%;
   stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
 
   
-  animation: stroke-offset 8s infinite linear;
+  animation: stroke-offset 10s infinite linear;
   
   @for $item from 1 through $max {
     $stroke-color: nth($colors, $item);

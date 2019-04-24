@@ -14,14 +14,15 @@
 //keyframe du background
 @keyframes slide {
   0%{
-    transform: translate3d(-400px, -500px, 0px);
     opacity: 0;
+    transform: translate(-100vw, 20vh), rotateX(45deg);
   }
   10%{
     opacity: 1;
+    
   }
   100%{
-    transform: translate3d(600px, 1000px, 0px);
+    transform: translateX(100vw);
   }
 }
 

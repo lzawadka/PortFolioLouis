@@ -68,7 +68,7 @@ span {
 .mySkills {
   position: absolute;
   color: white;
-  right: 1vw;
+  right: 0.1vw;
   top: 100vh;
   z-index: 99;
   height: 80vh;
@@ -121,7 +121,7 @@ span {
 .asideProjects {
   position: absolute;
   color: white;
-  right: 1vw;
+  right: 0.1vw;
   top: 200vh;
   z-index: 99;
   height: 80vh;
@@ -164,6 +164,7 @@ span {
   }
 }
 
+// Top line of projects
 .topLine {
   justify-content: space-evenly;
   display: flex;
@@ -173,6 +174,7 @@ span {
   transform: translateY(5vh);
 }
 
+// Bot line of projects
 .botLine {
   justify-content: space-evenly;
   display: flex;
@@ -186,6 +188,7 @@ span {
   margin-right: 4%;
 }
 
+// Size of all logo on back
 .logoLouisVuitton {
   margin-left: 1%;
   margin-top: -1%;
@@ -283,9 +286,11 @@ span {
 footer {
   display: flex;
   justify-content: center;
+  z-index: 999;
 }
 
 .footer {
+  height: 5vh;
   width: 30%;
   display: flex;
   justify-content: space-around;
