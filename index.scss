@@ -64,6 +64,14 @@ span {
 
 // Second Section
 
+.mySkills {
+  position: absolute;
+  color: white;
+  right: 1vw;
+  top: 100vh;
+  z-index: 99;
+  height: 80vh;
+}
 
 .downArrow2 {
   position: absolute;
@@ -99,57 +107,57 @@ span {
   height: 100vh;
   z-index: 22;
   position: absolute;
-  top: 100vh;
 }
 
 .pictureOfMe {
   padding-left: 2%;
+  width: 80%;
 }
 
-.asideProjects {
-  position: relative;
-  right: -47vw;
-  top: -59vh;
-  display: flex;
-  flex-direction: column-reverse;
-  z-index: 999;
-  color: white;
-  transform: rotateZ(90deg);
 
-  .projectsOnLeft {
-    background-color: blue;
-    height: 20px;
-    width: 80vh;
-  }
-
-  p {
-    font-family: 'Righteous', 'Heebo', sans-serif;
-    font-size: 2em;
-    padding-bottom: 1%;
-  }
-}
 
 // Third Section
 
-
-.canisMajor {
-  transform: translateY(45%);
+.asideProjects {
+  position: absolute;
+  color: white;
+  right: 1.3vw;
+  top: 200vh;
+  z-index: 99;
+  height: 80vh;
 }
 
+.projects {
+  height: 100vh;
+  width: 100vw;
+}
+
+.iconProjet {
+  height: 151px;
+  width: 161px;
+}
+
+.iconProjetCanis {
+  height: 101px;
+  width: 161px;
+}
+
+
+
 .canisMajorBlack {
-  transform: translateY(22%);
+  transform: translateY(28%);
   z-index: -99;
 }
 
 
-.projects {
+.allCards {
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   //justify-content: space-around;
   flex-direction: column;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   
   a {
     text-decoration: none;
@@ -157,7 +165,7 @@ span {
 }
 
 .topLine {
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
   width: 100vw;
@@ -166,7 +174,7 @@ span {
 }
 
 .botLine {
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
   width: 100vw;
@@ -181,8 +189,8 @@ span {
 .logoLouisVuitton {
   margin-left: 1%;
   margin-top: -1%;
-  height: 341px;
-  width: 341px;
+  height: 161px;
+  width: 161px;
 }
 
 //flip effect
@@ -200,15 +208,18 @@ span {
 }
 
 .flip-container, .front, .back {
-	width: 360px;
-	height: 380px;
+	width: 280px;
+	height: 300px;
 }
 
 /* flip speed goes here */
 .flipper {
 	-webkit-transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
-	position: relative;
+  position: relative;
+  // display: flex;
+  // justify-content: center;
+
 }
 
 /* hide back of pane during swap */
@@ -221,6 +232,9 @@ span {
 .front {
   z-index: 2;
   background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* back, initially hidden pane */
@@ -235,17 +249,20 @@ span {
 
   p {
     font-family: 'Heebo', sans-serif;
-    padding: 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    bottom: -5vh;
     text-decoration: none;
     color: black;
+    font-size: 1em;
 
     &:after {    
       background: none repeat scroll 0 0 transparent;
       bottom: 2%;
       content: "";
       display: block;
-      height: 3px;
-      left: 30%;
+      height: 2px;
+      left: 10%;
       position: absolute;
       background: #3926E2;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -253,7 +270,7 @@ span {
       text-decoration: none;
     }
     &:hover:after { 
-      width: 40%; 
+      width: 80%; 
       text-decoration: none; 
     }
   }
