@@ -134,6 +134,7 @@ canvas {
   height: 0.5vh;
   background-image: linear-gradient(to right, black , #3926E2);
   animation: stars2 3s infinite; 
+  z-index: 999; 
 }
 .lineGradient3 {
   width: 30vw;
@@ -152,7 +153,7 @@ canvas {
 }
 
 .projects {
-  height: 100vh;
+  height: 92.5vh;
   width: 100vw;
   overflow: hidden;
   
@@ -314,10 +315,15 @@ footer {
 }
 
 .footer {
-  height: 5vh;
+  height: 7.5vh;
   width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 2%;
+
+  .logoReseau {
+    height: 90%;
+    width: 90%;
+  }
 }
