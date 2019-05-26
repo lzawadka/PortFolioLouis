@@ -1,4 +1,4 @@
-.bodyKirby {
+.bodyNaruto {
   background-color: black;
   background-image: url(/img/fondKirbyRunner.png);
   background-repeat: no-repeat;
@@ -6,9 +6,10 @@
   background-attachment: fixed;
   background-size: 50%; 
   background-position-y: 30%;
+  overflow: hidden;
 }
 
-.kirbyRunner {
+.narutoGame {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,9 +23,11 @@
   }
 }
 
-.resume__kirbyRunner {
+.resume__narutoGame {
+  width: 100vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   color: white;
   font-family: 'Heebo', sans-serif;
   padding: 8% 10% 8% 10%;
@@ -38,12 +41,12 @@
   }
 }
 
-// .imageKirbyRunner {
-//   width: 50%;
-//   height: 20%;
-// }
+.imageNarutoGame {
+   width: 50%;
+   height: 20%;
+ }
 
-.boutonKirby {
+.boutonNaruto {
   color: white;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
