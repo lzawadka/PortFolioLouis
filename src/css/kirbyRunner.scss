@@ -1,6 +1,6 @@
 .bodyNaruto {
   background-color: black;
-  background-image: url(/img/fondKirbyRunner.png);
+  background-image: url(/img/iconNarutoBlue.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -16,10 +16,11 @@
   flex-direction: column;
 
   h1 {
-    padding-top: 2%;
+    padding-top: 10%;
     font-size: 3em;
     color: white;
-    font-family: 'Righteous', 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
   }
 }
 
@@ -29,7 +30,7 @@
   flex-direction: row;
   justify-content: center;
   color: white;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 8% 10% 8% 10%;
   
   p{
@@ -37,7 +38,7 @@
     padding-left: 20px;
     line-height: 1.5em;
     font-size: 1.2em;
-    font-weight: bolder;
+    font-weight: 200;
   }
 }
 
@@ -48,7 +49,7 @@
 
 .boutonNaruto {
   color: white;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   box-sizing: border-box;
   appearance: none;

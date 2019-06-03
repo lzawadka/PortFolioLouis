@@ -1,12 +1,14 @@
-.bodyLouisVuitton {
+.bodyCanis {
   background-color: black;
-  background-image: url(/img/louisVuittonFont.png);
+  background-image: url(/img/fondHeroCorp.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed; 
+  background-size: 90%;
+  background-position-y: 25%;
 }
 
-.louisVuitton {
+.canisMajorPage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,23 +23,28 @@
   }
 }
 
-.resume__louisVuitton {
+.resume__heroCorp {
   display: flex;
   flex-direction: row;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding: 8% 10% 8% 10%;
+  padding: 12% 10% 12% 10%;
   
   p{
-    width: 40vw;
+    width: 35vw;
     padding-left: 20px;
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 1.2em;
     font-weight: 200;
   }
 }
 
-.boutonLouisVuitton {
+.imageHeroCorp {
+  width: 50%;
+  height: 20%;
+}
+
+.boutonCanis {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;

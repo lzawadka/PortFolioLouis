@@ -31,14 +31,14 @@ body {
 }
 
 .louisZawadka {
-  font-family: 'Righteous', 'Heebo', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6.5em;
   white-space: nowrap;
   color: white;
 }
 
 .postName {
-  font-family: 'Righteous', 'Heebo', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 4em;
 }
@@ -121,27 +121,6 @@ canvas {
 
 // Third Section
 
-.lineGradient {
-  width: 30vw;
-  height: 0.5vh;
-  background-image: linear-gradient(to right, black , #3926E2);
-  animation: stars 3s infinite;
-  z-index: 999; 
-}
-.lineGradient2 {
-  width: 30vw;
-  height: 0.5vh;
-  background-image: linear-gradient(to right, black , #3926E2);
-  animation: stars2 3s infinite; 
-  z-index: 999; 
-}
-.lineGradient3 {
-  width: 30vw;
-  height: 0.5vh;
-  background-image: linear-gradient(to right , #3926E2, black);
-  animation: stars3 3s infinite; 
-}
-
 .asideProjects {
   position: absolute;
   color: white;
@@ -154,11 +133,18 @@ canvas {
 .projects {
   width: 100vw;
   overflow: hidden;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .iconProjet {
   height: 151px;
+  width: 161px;
+}
+
+.iconHerocorp {
+  height: 111px;
   width: 161px;
 }
 
@@ -278,7 +264,8 @@ canvas {
   align-items: center;
 
   p {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     padding: 0px 0 10px 0;
     position: relative;
     bottom: -5vh;
